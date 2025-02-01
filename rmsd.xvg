@@ -1,0 +1,19 @@
+# This file was created Thu Jan 30 11:22:41 2025
+# Created by:
+#            :-) GROMACS - gmx rms, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /mnt/c/Users/91962/Downloads/Risha
+# Command line:
+#   gmx rms -s md.tpr -f md.xtc -o rmsd.xvg -tu ns
+# gmx rms is part of G R O M A C S:
+#
+# Gnomes, ROck Monsters And Chili Sauce
+#
+@    title "RMSD"
+@    xaxis  label "Time (ns)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "Backbone after lsq fit to Protein"
+   0.0000000    0.0000008
